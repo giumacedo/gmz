@@ -153,7 +153,6 @@ a > .show-card {
 .header {
   z-index: 10;
   position: fixed;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   text-align: center;
@@ -162,7 +161,7 @@ a > .show-card {
   width: 100%;
   overflow: hidden;
   background-color: #fafafa;
-  padding: 8px 30px;
+  padding: 5px 10px;
 }
 
 .brand {
@@ -172,9 +171,9 @@ a > .show-card {
   margin: 0;
 }
 
-.brand > a {
-  color: #B10DC9;
-  text-decoration: none;
+.brand .normal {
+  width: auto;
+  height: 7vh;
 }
 
 .header-back {
