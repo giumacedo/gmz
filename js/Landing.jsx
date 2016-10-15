@@ -14,7 +14,7 @@ const Landing = () => (
         allowFullScreen='true'
       />
     </div>
-    <CountdownTimer initialTimeRemaining={535210023}/>
+    <CountdownTimer initialTimeRemaining={535210023} />
   </div>
 )
 

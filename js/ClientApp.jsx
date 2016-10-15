@@ -13,4 +13,8 @@ const App = () => (
   </Router>
 )
 
+//  Google analytics
+var ReactGA = require('react-ga')
+ReactGA.initialize('UA-85748374-1')
+
 ReactDOM.render(<App/>, document.getElementById('app'))
