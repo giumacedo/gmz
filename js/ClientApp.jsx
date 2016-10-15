@@ -1,20 +1,16 @@
 const React = require('react')
 const ReactDOM = require('react-dom')
+const Landing = require('./Landing')
+const Layout = require('./Layout')
+const ReactRouter = require('react-router')
+const { Router, Route, hashHistory, IndexRoute } = ReactRouter
 
 const App = () => (
-  <div className='app-container'>
-    <div className='home-info'>
-      <iframe
-        src='http://player.twitch.tv/?channel={ gamemasterszen }'
-        height='349'
-        autoPlay='true'
-        width='620'
-        frameBorder='0'
-        scrolling='no'
-        allowFullScreen='true'
-      />
-    </div>
-  </div>
+  <Router history={hashHistory}>
+    <Route path='/' component={Layout}>
+      <IndexRoute component={Landing} />
+    </Route>
+  </Router>
 )
 
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(<App/>, document.getElementById('app'))
