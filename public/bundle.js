@@ -19830,7 +19830,7 @@
 	      'div',
 	      { className: 'home-info' },
 	      React.createElement('iframe', {
-	        src: 'http://player.twitch.tv/?channel={ lirik }',
+	        src: 'http://player.twitch.tv/?channel={ rocketleague }',
 	        height: '349',
 	        autoPlay: 'true',
 	        width: '620',
