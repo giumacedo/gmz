@@ -9,7 +9,7 @@ module.exports = {
   },
   resolve: {
     extensions: ['', '.js', '.jsx', '.json']
-  },
+},
   stats: {
     colors: true,
     reasons: true,

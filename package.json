@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "axios": "0.9.1",
+    "consolidate": "^0.14.1",
+    "ejs": "^2.5.2",
     "express": "4.13.4",
     "lodash": "4.6.1",
     "react": "^0.14.7",
