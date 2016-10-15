@@ -124,7 +124,7 @@ const CountdownTimer = React.createClass({
 
     return (
       <div>
-        <span>{`próximo stream ${hours}h : ${minutes}m : ${seconds}s `}</span>
+        <span>{`${hours}h : ${minutes}m : ${seconds}s `}</span>
       </div>
     )
   },

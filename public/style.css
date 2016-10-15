@@ -176,7 +176,7 @@ a > .show-card {
 
 .brand .normal {
   width: auto;
-  height: 7vh;
+  height: 60px;
 }
 
 .header-back {
@@ -235,6 +235,6 @@ a > .show-card {
 .timer {
   margin-top: 20px;
   color: #f67d29;
-  font-size: 2em;
+  font-size: 4em;
   font-weight: bold;
 }

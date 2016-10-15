@@ -19987,7 +19987,7 @@
 	      React.createElement(
 	        'span',
 	        null,
-	        'pr\xF3ximo stream ' + hours + 'h : ' + minutes + 'm : ' + seconds + 's '
+	        hours + 'h : ' + minutes + 'm : ' + seconds + 's '
 	      )
 	    );
 	  },
