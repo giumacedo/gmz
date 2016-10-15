@@ -19904,7 +19904,7 @@
 	            Link,
 	            { className: 'brand-link', to: '/' },
 	            React.createElement(Icon, { className: 'normal' }),
-	            ' Teste 2'
+	            ' Teste 3'
 	          )
 	        )
 	      );
