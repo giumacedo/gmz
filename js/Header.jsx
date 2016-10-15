@@ -9,7 +9,7 @@ class Header extends React.Component {
       <header className='header'>
         <div className='brand'>
           <Link className='brand-link' to='/' >
-            <Icon className='normal' />
+            <Icon className='normal' /> Teste
           </Link>
         </div>
       </header>
