@@ -1,6 +1,6 @@
 const React = require('react')
 const ReactRouter = require('react-router')
-var Icon = require('babel!svg-react!../public/img/logo.svg')
+// var Icon = require('babel!svg-react!../public/img/logo.svg')
 const { Link } = ReactRouter
 
 class Header extends React.Component {
@@ -9,7 +9,7 @@ class Header extends React.Component {
       <header className='header'>
         <div className='brand'>
           <Link className='brand-link' to='/' >
-            <Icon className='normal' />
+            // <Icon className='normal' />
           </Link>
         </div>
       </header>
